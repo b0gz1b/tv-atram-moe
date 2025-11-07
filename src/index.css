@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'RecMonoCasualNerd';
+  src: url('./assets/fonts/RecMonoCasualNerdFont-Regular.ttf') format('truetype');
+  font-weight: 400; /* normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RecMonoCasualNerd';
+  src: url('./assets/fonts/RecMonoCasualNerdFont-Bold.ttf') format('truetype');
+  font-weight: 700; /* normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RecMonoCasualNerd';
+  src: url('./assets/fonts/RecMonoCasualNerdFont-Italic.ttf') format('truetype');
+  font-weight: 400; /* normal */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RecMonoCasualNerd';
+  src: url('./assets/fonts/RecMonoCasualNerdFont-BoldItalic.ttf') format('truetype');
+  font-weight: 700; /* normal */
+  font-style: italic;
+}
+
+@theme {
+  --font-recursive-mono-casual: "RecMonoCasualNerd", sans-serif;
+}
