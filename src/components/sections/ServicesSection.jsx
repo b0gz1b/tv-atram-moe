@@ -34,7 +34,7 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="bg-gradient-to-br from-purple-50 to-red-50 px-4">
+    <section className="bg-linear-to-br from-purple-50 to-red-50 px-4">
       <div className="text-center">
         <h2 className="font-bold text-xl">Services</h2>
         <p className="text-gray-700">
@@ -47,7 +47,7 @@ const ServicesSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               key={index}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-1 transition-transform transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-1 transition-shadow duration-300"
             >
               <div className={`text-4xl mb-4 font-recursive-mono-casual ${service.color}`}>
                 {service.icon}

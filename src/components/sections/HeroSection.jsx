@@ -2,7 +2,7 @@ import CTAButton from "../ui/CTAButton";
 import { openInNewTab } from '@/utils/helpers.js';
 const HeroSection = () => {
   return (
-  <section className="pt-22 md:pt-25 bg-gradient-to-br from-blue-50 to-purple-50 text-left p-4">
+  <section className="pt-22 md:pt-25 bg-linear-to-br from-blue-50 to-purple-50 text-left p-4">
       <h1 className="font-bold text-xl">Le service de streaming BoutPop</h1>
       <p>
         Ici vous trouverez les liens vers les différents services qui composent
