@@ -2,7 +2,7 @@ import {
   JELLYFIN_CONFIG,
   JELLYFIN_HEADERS,
   API_LIMITS,
-} from "@src/utils/constants.js";
+} from "@/utils/constants.js";
 
 export const getItemCounts = async () => {
   try {

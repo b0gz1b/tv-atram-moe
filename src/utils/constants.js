@@ -5,7 +5,7 @@ export const JELLYFIN_CONFIG = {
 };
 
 export const JELLYFIN_HEADERS = {
-  "X-Emby-Authorization": `MediaBrowser Client="tv-atram-moe" Device="WebApp" DeviceId="${JELLYFIN_CONFIG.DEVICE_ID} Version="1.0.0" Token="${JELLYFIN_CONFIG.API_KEY}"`,
+  "Authorization": `MediaBrowser Token="${JELLYFIN_CONFIG.API_KEY}", Client="tv-atram-moe", Device="WebApp", DeviceId="${JELLYFIN_CONFIG.DEVICE_ID}, Version="1.0.0"`,
   "Content-Type": "application/json",
 };
 

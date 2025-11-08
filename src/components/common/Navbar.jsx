@@ -4,7 +4,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed w-full bg-white shadow-md p-4">
+    <nav className="fixed w-full bg-white shadow-md p-4 z-100">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-5 md:px-2">
         <button
           onClick={() => setIsOpen(!isOpen)}

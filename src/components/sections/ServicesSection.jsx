@@ -47,9 +47,11 @@ const ServicesSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               key={index}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-1 transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-1 transition-shadow duration-300 z-40"
             >
-              <div className={`text-4xl mb-4 font-recursive-mono-casual ${service.color}`}>
+              <div
+                className={`text-4xl mb-4 font-recursive-mono-casual ${service.color}`}
+              >
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
