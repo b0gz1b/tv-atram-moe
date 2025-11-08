@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="fixed w-full bg-white shadow-md p-4">
-      <div className="flex justify-between items-center max-w-screen-xl mx-auto md:px-5 md:px-2">
+      <div className="flex justify-between items-center max-w-7xl mx-auto px-5 md:px-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="fixed md:hidden font-recursive-mono-casual"
