@@ -1,5 +1,5 @@
 export const JELLYFIN_CONFIG = {
-  BASE_URL: "http://jellyfin.home",
+  BASE_URL: "https://jellyfin.atram.moe",
   API_KEY: "24901072ca914d8694371cb2db6d0d0e",
   DEVICE_ID: `tv-atram-moe-${Math.random().toString(36).slice(2, 10)}-${Date.now()}`,
 };

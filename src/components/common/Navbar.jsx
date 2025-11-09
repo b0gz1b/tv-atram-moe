@@ -53,7 +53,7 @@ const Navbar = () => {
           </a>
           <CTAButton
             onClick={() => {
-              openInNewTab("http://jellyseerr.home");
+              openInNewTab("http://jellyseerr.atram.moe");
             }}
             variant="blue"
           >
@@ -61,7 +61,7 @@ const Navbar = () => {
           </CTAButton>
           <CTAButton
             onClick={() => {
-              openInNewTab("http://jellyfin.home");
+              openInNewTab("http://jellyfin.atram.moe");
             }}
             variant="red"
           >
@@ -71,7 +71,7 @@ const Navbar = () => {
         <div className="flex md:hidden items-center space-x-1 pl-2">
           <CTAButton
             onClick={() => {
-              openInNewTab("http://jellyseerr.home");
+              openInNewTab("http://jellyseerr.atram.moe");
             }}
             variant="blue"
           >
@@ -79,7 +79,7 @@ const Navbar = () => {
           </CTAButton>
           <CTAButton
             onClick={() => {
-              openInNewTab("http://jellyfin.home");
+              openInNewTab("http://jellyfin.atram.moe");
             }}
             variant="red"
           >

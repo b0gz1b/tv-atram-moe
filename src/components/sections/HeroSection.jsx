@@ -10,8 +10,8 @@ const HeroSection = () => {
         astuces, ainsi que quelques statistiques.
       </p>
       <div className="flex space-x-6 py-3 items-center">
-        <CTAButton onClick={() => {openInNewTab("http://jellyseerr.home")}} variant="blue">Télécharger 󰅢</CTAButton>
-        <CTAButton onClick={() => {openInNewTab("http://jellyfin.home")}} variant="red">Regarder </CTAButton>
+        <CTAButton onClick={() => {openInNewTab("https://jellyseerr.atram.moe")}} variant="blue">Télécharger 󰅢</CTAButton>
+        <CTAButton onClick={() => {openInNewTab("https://jellyfin.atram.moe")}} variant="red">Regarder </CTAButton>
       </div>
     </section>
   );
